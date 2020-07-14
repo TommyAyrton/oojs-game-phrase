@@ -8,6 +8,7 @@ class Game {
         this.phrases = this.createPhrases();
         this.activePhrase = null;
     }
+
     /**
      * Create phrases for use in game
      * @return {array} An array of phrases that could be used in the game
@@ -107,11 +108,15 @@ class Game {
         }
     }
 
+    /**
+     * Reset for a new game
+     * Initial values
+     */
     resetGame() {
         this.missed = 0;
         this.activePhrase = null;
-        const deleteLi = document.querySelector('div#phrase');
-        deleteLi.innerHTML = '';
+        const deleteLiPhrase = document.querySelector('div#phrase');
+        deleteLiPhrase.innerHTML = '';
         const images = document.querySelectorAll('img');
         for (let i = 0, len = images.length; i < len; i++) {
             images[i].setAttribute('src', 'images/liveHeart.png');
