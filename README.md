@@ -2,9 +2,8 @@
 
 # **Phrase Hunter**
 
----
-
 In this project we work with objects, classes, DOM, events and generate random numbers.
+In the game you must guess the phrase by selecting the letters.
 
 ## Installation
 
@@ -33,4 +32,4 @@ To change the phrases, with those of your preference, you have to:
 
 ## Acknowledgments
 
--   Thank the Treehouse team for the encouragement through each review
+-   Thank the Treehouse team for the encouragement through each review.
