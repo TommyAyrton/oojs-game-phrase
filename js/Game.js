@@ -95,7 +95,7 @@ class Game {
      * @param (HTMLButtonElement) button - The clicked button element
      */
     handleInteraction(button) {
-        console.log(button);
+        // console.log(button);
         button.disabled = true;
         if (this.activePhrase.showMatchedLetter(button.innerText)) {
             button.classList.add('chosen');
@@ -115,6 +115,7 @@ class Game {
     resetGame() {
         this.missed = 0;
         this.activePhrase = null;
+        const divOverlay = document.querySelector('div#overlay');
         const deleteLiPhrase = document.querySelector('div#phrase');
         deleteLiPhrase.innerHTML = '';
         const images = document.querySelectorAll('img');
@@ -126,5 +127,6 @@ class Game {
             keys[i].className = 'key';
             keys[i].disabled = '';
         }
+        divOverlay.className = 'start';
     }
 }
