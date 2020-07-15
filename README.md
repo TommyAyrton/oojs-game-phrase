@@ -33,4 +33,4 @@ To change the phrases, with those of your preference, you have to:
 
 ## Acknowledgments
 
--   Agradecer al equipo de Treehouse por el aliento mediante cada revisión
+-   Thank the Treehouse team for the encouragement through each review
