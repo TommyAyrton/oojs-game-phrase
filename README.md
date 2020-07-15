@@ -1,8 +1,8 @@
-## oojs-game-phrase
-
-# **Phrase Hunter**
+# oojs-game-phrase
 
 In this project we work with objects, classes, DOM, events and generate random numbers.
+
+## **Phrase Hunter**
 
 In the game you must guess the phrase by selecting the letters.
 
