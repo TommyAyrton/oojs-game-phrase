@@ -13,9 +13,11 @@ In this project we work with objects, classes, DOM, events and generate random n
 In this game you must guess the phrase by selecting the letters.
 
 -   First click in the button Start Game
+
     ![](/images/startGame.png)
 
-*   You have 5 tries to guess the phrase, by selecting the letters
+-   You have 5 tries to guess the phrase, by selecting the letters
+
     ![](/images/guessPhrase.png)
 
 ### Change phrases
