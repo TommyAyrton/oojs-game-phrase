@@ -34,8 +34,8 @@ class Phrase {
      */
     checkLetter(letter) {
         const splitPhrase = this.phrase.split('');
-        let res = splitPhrase.indexOf(letter) != -1 ? true : false;
-        return res;
+        let isTheLetter = splitPhrase.indexOf(letter) != -1 ? true : false;
+        return isTheLetter;
     }
 
     /**

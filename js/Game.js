@@ -52,8 +52,8 @@ class Game {
     checkForWin() {
         const liElements = document.querySelectorAll('li.hide');
         const lengthLi = liElements.length;
-        const res = lengthLi === 0 ? true : false;
-        return res;
+        const youWon = lengthLi === 0 ? true : false;
+        return youWon;
     }
 
     /**
