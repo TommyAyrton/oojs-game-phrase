@@ -14,7 +14,8 @@ In this project we work with objects, classes, DOM, events and generate random n
 
 To change the phrases, with those of your preference, you have to:
 
--   Open the Game.js file, change the phrases between the single quotes
+-   Open the Game.js file.
+-   Change the phrases between the single quotes.
 
 ```
     new Phrase('Life is like a box of chocolates'),
