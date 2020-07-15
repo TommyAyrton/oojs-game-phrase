@@ -1,5 +1,5 @@
 # oojs-game-phrase
 
-# Phrase Hunter
+# **Phrase Hunter**
 
 ---
