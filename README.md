@@ -3,6 +3,7 @@
 # **Phrase Hunter**
 
 In this project we work with objects, classes, DOM, events and generate random numbers.
+
 In the game you must guess the phrase by selecting the letters.
 
 ## Installation
