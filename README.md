@@ -44,3 +44,5 @@ To change the phrases, with those of your preference, you have to:
 ## Acknowledgments
 
 -   Thank the Treehouse team for the encouragement through each review.
+
+### Support or Contact
